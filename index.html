@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- PLACEHOLDER: holds the domain until the full site is uploaded. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Panagiota Ligka — coming soon</title>
+<meta name="description" content="Panagiota Ligka. Product design engineer and PhD candidate. Site coming soon.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Panagiota Ligka — Product Design Engineer">
+<meta property="og:description" content="Computational design, wearables and digital fabrication. New site coming soon.">
+<meta property="og:url" content="https://ligka.com/">
+<meta property="og:image" content="https://ligka.com/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Panagiota Ligka — Product design engineer and PhD candidate">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script>try{var t=localStorage.getItem('pl-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<style>
+  @font-face { font-family: 'Syne'; font-style: normal; font-display: swap; font-weight: 800; src: url(fonts/syne-greek-800-normal.woff2) format('woff2'); unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF; }
+  @font-face { font-family: 'Syne'; font-style: normal; font-display: swap; font-weight: 800; src: url(fonts/syne-latin-ext-800-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+  @font-face { font-family: 'Syne'; font-style: normal; font-display: swap; font-weight: 800; src: url(fonts/syne-latin-800-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+  @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-display: swap; font-weight: 400; src: url(fonts/jetbrains-mono-greek-400-normal.woff2) format('woff2'); unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF; }
+  @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-display: swap; font-weight: 400; src: url(fonts/jetbrains-mono-latin-ext-400-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+  @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-display: swap; font-weight: 400; src: url(fonts/jetbrains-mono-latin-400-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--paper:#F2F5F4;--ink:#000;--accent:#516F66;--muted:#37534A;--border:#C1CDC9;
+ --ff-display:'Syne','Helvetica Neue',Arial,sans-serif;--ff-body:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#0F1413;--ink:#F2F5F4;--accent:#8FB8AA;--muted:#A9C0B8;--border:#374340}}
+:root[data-theme=dark]{--paper:#0F1413;--ink:#F2F5F4;--accent:#8FB8AA;--muted:#A9C0B8;--border:#374340}
+html{background:var(--paper)}
+body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;background:var(--paper);color:var(--ink);font:13px/1.7 var(--ff-body);padding:20px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+header{display:flex;justify-content:flex-end;gap:6px;align-items:center}
+button{font:inherit;font-size:12px;letter-spacing:.12em;background:none;border:0;color:var(--muted);padding:6px 8px;cursor:pointer;transition:color .2s}
+button:hover,button[aria-pressed=true]{color:var(--ink)}
+main{flex:1;display:flex;flex-direction:column;justify-content:center;padding:4vh 0}
+.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1.4rem}
+h1{font-family:var(--ff-display);font-weight:800;font-size:clamp(1.7rem,8.4vw,7.5rem);line-height:.92;letter-spacing:-.02em;text-transform:uppercase;hyphens:none;overflow-wrap:normal}
+.role{margin-top:1.6rem;color:var(--muted);max-width:46ch}
+.soon{margin-top:2.4rem;display:inline-flex;align-items:center;gap:.7rem;border-top:1px solid var(--border);padding-top:1.2rem;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);animation:p 2.4s ease-in-out infinite}
+@keyframes p{50%{opacity:.25}}
+footer{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;font-size:12px;letter-spacing:.06em}
+footer a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border);padding-bottom:2px;transition:color .2s,border-color .2s}
+footer a:hover,footer a:focus-visible{color:var(--accent);border-color:var(--accent)}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:0;animation:fadein 1.6s .5s ease forwards}
+header,main,footer{position:relative;z-index:1}
+.ch-w{display:inline-block;white-space:nowrap}
+.ch{display:inline-block;animation:rise .75s cubic-bezier(.34,1.56,.64,1) both;animation-delay:calc(var(--i)*45ms + .1s)}
+@keyframes rise{from{opacity:0;transform:translateY(.45em) rotate(5deg)}}
+@keyframes fadein{to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.dot,.ch{animation:none}#bg{animation:none;opacity:1}}
+</style>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header>
+ <button id="th" type="button" aria-label="Toggle dark / light mode">◐</button>
+ <button type="button" data-l="en" aria-pressed="true" lang="en">EN</button>
+ <button type="button" data-l="el" aria-pressed="false" lang="el">GR</button>
+</header>
+<main id="main">
+ <p class="eyebrow" data-i="eyebrow">Portfolio</p>
+ <h1><span data-i="n1">Panagiota</span><br><span data-i="n2">Ligka</span></h1>
+ <p class="role" data-i="role">Product design engineer and PhD candidate. Computational design, wearables and digital fabrication.</p>
+ <p class="soon"><span class="dot" aria-hidden="true"></span><span data-i="soon">New site coming soon</span></p>
+</main>
+<footer>
+ <a href="mailto:pligka@gmail.com">pligka@gmail.com</a>
+ <a href="https://www.linkedin.com/in/panagiota-ligka/" rel="noopener">LinkedIn</a>
+ <a href="https://www.researchgate.net/profile/Panagiota-Ligka" rel="noopener">ResearchGate</a>
+ <a href="https://orcid.org/0009-0009-3356-1617" rel="noopener">ORCID</a>
+</footer>
+<script>
+var S={en:{n1:"Panagiota",n2:"Ligka",eyebrow:"Portfolio",role:"Product design engineer and PhD candidate. Computational design, wearables and digital fabrication.",soon:"New site coming soon",title:"Panagiota Ligka — coming soon"},
+el:{n1:"Παναγιώτα",n2:"Λίγκα",eyebrow:"Χαρτοφυλάκιο",role:"Μηχανικός σχεδιασμού προϊόντων και υποψήφια διδάκτωρ. Υπολογιστικός σχεδιασμός, φορετά και ψηφιακή κατασκευή.",soon:"Ο νέος ιστότοπος έρχεται σύντομα",title:"Παναγιώτα Λίγκα — έρχεται σύντομα"}};
+function setL(l){document.documentElement.lang=l;document.title=S[l].title;
+ document.querySelectorAll('[data-i]').forEach(function(e){e.textContent=S[l][e.dataset.i]});
+ document.querySelectorAll('[data-l]').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.l===l)});
+ splitName(l);try{localStorage.setItem('pl-lang',l)}catch(e){}}
+document.querySelectorAll('[data-l]').forEach(function(b){b.onclick=function(){setL(b.dataset.l)}});
+var l0='en';try{l0=localStorage.getItem('pl-lang')||((navigator.language||'').slice(0,2)==='el'?'el':'en')}catch(e){}
+if(l0!=='en')setL(l0);else splitName('en');
+
+function splitName(l){var h=document.querySelector('h1'),i=0;
+ h.setAttribute('aria-label',S[l].n1+' '+S[l].n2);
+ h.querySelectorAll('[data-i]').forEach(function(w){var t=w.textContent;w.textContent='';w.className='ch-w';w.setAttribute('aria-hidden','true');
+  t.split('').forEach(function(c){var sp=document.createElement('span');sp.className='ch';sp.textContent=c;sp.style.setProperty('--i',i++);w.appendChild(sp)})})}
+
+/* Tab title while the visitor is on another tab */
+(function(){var orig=document.title;document.addEventListener('visibilitychange',function(){
+ if(document.hidden){orig=document.title;document.title=document.documentElement.lang==='el'?'Έλα πίσω! 🎨':'Come back! 🎨'}else document.title=orig})})();
+
+/* Wobbling wireframe knot (2D canvas, no libraries) */
+(function(){
+var cv=document.getElementById('bg'),ctx=cv.getContext&&cv.getContext('2d');if(!ctx)return;
+var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+var TS=120,RS=12,P=3,Q=5,R=.9,TUBE=.28,PI2=Math.PI*2;
+function cross(a,b){return[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]}
+function norm(a){var l=Math.hypot(a[0],a[1],a[2])||1;return[a[0]/l,a[1]/l,a[2]/l]}
+function curve(u){var cs=Math.cos(Q/P*u);return[R*(2+cs)*.5*Math.cos(u),R*(2+cs)*Math.sin(u)*.5,R*Math.sin(Q/P*u)*.5]}
+var base=new Float32Array(TS*RS*3);
+for(var i=0;i<TS;i++){var u=i/TS*P*PI2,p1=curve(u),p2=curve(u+.01);
+ var T=[p2[0]-p1[0],p2[1]-p1[1],p2[2]-p1[2]],N=[p2[0]+p1[0],p2[1]+p1[1],p2[2]+p1[2]];
+ var B=norm(cross(T,N));N=norm(cross(B,T));
+ for(var j=0;j<RS;j++){var v=j/RS*PI2,cx=-TUBE*Math.cos(v),cy=TUBE*Math.sin(v),k=(i*RS+j)*3;
+  base[k]=p1[0]+cx*N[0]+cy*B[0];base[k+1]=p1[1]+cx*N[1]+cy*B[1];base[k+2]=p1[2]+cx*N[2]+cy*B[2]}}
+var px=new Float32Array(TS*RS*2);
+var W=0,H=0,dpr=1,mx=0,my=0,sx=0,sy=0,color='#516F66',n=0,top=0;
+function size(){dpr=Math.min(devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0)}
+addEventListener('resize',function(){size();if(reduce)draw(1.5)});
+addEventListener('mousemove',function(e){mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+function draw(t){
+ if(n++%10===0){var c=getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();if(c)color=c;top=document.querySelector('.eyebrow').getBoundingClientRect().top}
+ ctx.clearRect(0,0,W,H);
+ var wide=W>700,sz,cx0,cy0,al;
+ if(wide){sz=Math.min(W,H)*.82;cx0=W*.74;cy0=H*.5;al=.42}
+ else{var avail=top-60;if(avail>=120){sz=Math.min(W*.55,avail*.9);cx0=W*.5;cy0=60+avail/2;al=.4}else{sz=W*.6;cx0=W*.5;cy0=H*.5;al=.1}}
+ var k=sz/3.3;
+ var ry=t*.24+sx*1.1,rx=t*.06+sy*.8,tw=t*.36,cyr=Math.cos(ry),syr=Math.sin(ry),cxr=Math.cos(rx),sxr=Math.sin(rx);
+ function proj(x,y,z,o,idx){var x1=x*cyr+z*syr,z1=-x*syr+z*cyr,y1=y*cxr-z1*sxr,z2=y*sxr+z1*cxr,s=4.2/(4.2-z2)*k;o[idx]=cx0+x1*s;o[idx+1]=cy0+y1*s}
+ for(var q=0;q<TS*RS;q++){var x=base[q*3],y=base[q*3+1],z=base[q*3+2],w=Math.sin(x*2.5+tw)*Math.cos(y*2.5+tw*.8)*.08;proj(x+x*w,y+y*w,z+z*w,px,q*2)}
+ ctx.lineWidth=1;ctx.strokeStyle=color;ctx.globalAlpha=al;ctx.beginPath();
+ for(var i=0;i<TS;i++){var i2=(i+1)%TS;for(var j=0;j<RS;j++){var a=(i*RS+j)*2,b=(i*RS+(j+1)%RS)*2,c2=(i2*RS+j)*2;
+  ctx.moveTo(px[a],px[a+1]);ctx.lineTo(px[b],px[b+1]);ctx.moveTo(px[a],px[a+1]);ctx.lineTo(px[c2],px[c2+1])}}
+ ctx.stroke();
+ ctx.globalAlpha=.22;
+ [[1.5,Math.PI/3,t*.18],[1.3,-Math.PI/5,-t*.24]].forEach(function(r){ctx.beginPath();
+  for(var a=0;a<=64;a++){var th=a/64*PI2,x=r[0]*Math.cos(th),y=r[0]*Math.sin(th),y2=y*Math.cos(r[1]),z2=y*Math.sin(r[1]),xr=x*Math.cos(r[2])-y2*Math.sin(r[2]),yr=x*Math.sin(r[2])+y2*Math.cos(r[2]),o=[0,0];
+   proj(xr,yr,z2,o,0);a?ctx.lineTo(o[0],o[1]):ctx.moveTo(o[0],o[1])}
+  ctx.stroke()});
+ ctx.globalAlpha=1}
+size();
+if(reduce){draw(1.5);return}
+var t0=performance.now();
+(function loop(now){requestAnimationFrame(loop);sx+=(mx-sx)*.05;sy+=(my-sy)*.05;draw((now-t0)/1000)})(t0);
+})();
+document.getElementById('th').onclick=function(){var d=document.documentElement,
+ dark=d.dataset.theme?d.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches,n=dark?'light':'dark';
+ d.dataset.theme=n;try{localStorage.setItem('pl-theme',n)}catch(e){}};
+</script>
+</body>
+</html>
